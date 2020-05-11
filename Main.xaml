@@ -80,7 +80,7 @@
           <av:Size x:Key="ShapeSize">200,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="698,2001" sap2010:WorkflowViewState.IdRef="Sequence_13">
+      <Sequence sap:VirtualizedContainerService.HintSize="698,1900" sap2010:WorkflowViewState.IdRef="Sequence_13">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="llllllll" />
         </Sequence.Variables>
@@ -91,7 +91,6 @@
         </sap:WorkflowViewStateService.ViewState>
         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="656,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;RPA process start&quot;]" />
         <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[ChallengeDT]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="656,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="C:\Users\hp\Desktop\challenge_RPA.xlsx" />
-        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="656,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Open browser" />
         <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="656,1550" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="http://www.rpachallenge.com">
           <ui:OpenBrowser.Body>
             <ActivityAction x:TypeArguments="x:Object">
